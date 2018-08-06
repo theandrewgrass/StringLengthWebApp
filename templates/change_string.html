@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Change String</title>
+  </head>
+  <body>
+    <h1>Enter a string and click submit to perform the operation.</h1>
+
+    <form method="POST">
+      String: <input type="text" name="string_to_be_added">
+      <input type="submit" value="Submit">
+    </form>
+
+    {% if num_chars_in_string %}
+      <h3>There are {{ num_chars_in_string }} characters in the string you submitted.</h3>
+    {% endif %} 
+
+  </body>
+</html>
